@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Retrato de la autora">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A2342"/>
+      <stop offset="100%" stop-color="#007BFF"/>
+    </linearGradient>
+    <linearGradient id="jersey" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#74ACDF"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#74ACDF"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg)"/>
+  <ellipse cx="200" cy="430" rx="130" ry="40" fill="#000" opacity="0.15"/>
+  <rect x="95" y="250" width="210" height="180" rx="30" fill="url(#jersey)"/>
+  <rect x="95" y="250" width="70" height="180" fill="#74ACDF"/>
+  <rect x="165" y="250" width="70" height="180" fill="#FFFFFF"/>
+  <rect x="235" y="250" width="70" height="180" fill="#74ACDF"/>
+  <circle cx="200" cy="170" r="72" fill="#D4A574"/>
+  <path d="M128 150 C130 95 170 70 200 70 C230 70 270 95 272 150 L272 190 L128 190 Z" fill="#3B2314"/>
+  <rect x="128" y="120" width="144" height="28" rx="8" fill="#74ACDF" opacity="0.9"/>
+  <circle cx="160" cy="175" r="8" fill="#F4C2A1"/>
+  <circle cx="240" cy="175" r="8" fill="#F4C2A1"/>
+  <ellipse cx="145" cy="205" rx="14" ry="10" fill="#74ACDF"/>
+  <ellipse cx="255" cy="205" rx="14" ry="10" fill="#74ACDF"/>
+  <circle cx="145" cy="205" r="4" fill="#F6D44B"/>
+  <circle cx="255" cy="205" r="4" fill="#F6D44B"/>
+  <path d="M185 220 Q200 232 215 220" stroke="#8B5A3C" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text x="200" y="470" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="16" opacity="0.85">Reemplazá con /public/author.jpg</text>
+</svg>
