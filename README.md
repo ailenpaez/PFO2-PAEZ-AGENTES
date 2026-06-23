@@ -1,7 +1,14 @@
-# PFO 2 - AGENTES IA
+# PFO Individual 2  - AGENTES IA
 
 ### Nombre del proyecto: CopaTracker ⚽ 2026
+---
+**Link deploy unificado**: https://pfo-2-paez-agentes-menu.vercel.app/
+**Alumna**: Ailén Páez
+**Comisión**: Viernes - 2E
+**Materia**: Frontend
+**Año**:2026
 
+---
 ### Descripción del proyecto
 
 CopaTracker ⚽ 2026 es una aplicación web desarrollada mediante agentes de Inteligencia Artificial utilizando un único prompt.
