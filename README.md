@@ -573,3 +573,10 @@ La aplicación debe iniciar correctamente, consumir la API configurada mediante 
 ![Cursor - Pantalla 3](BRIEF-SCREENS/CURSOR3.png)
 
 ![Cursor - Pantalla 4](BRIEF-SCREENS/CURSOR4.png)
+
+---
+### Deploy de los proyectos
+
+- Claude: 
+- Cursor: 
+
