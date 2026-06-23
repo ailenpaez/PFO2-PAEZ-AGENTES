@@ -55,18 +55,18 @@ Estos documentos permitieron:
 
 ---
 
-### Tecnologías utilizadas
+<h2 align="center">Tecnologías Utilizadas</h2>
 
-- Next.js
-- React
-- TypeScript
-- Tailwind CSS
-- Fetch API
-- Responsive Design
-- SEO Básico
-- Vercel
-- Git
-- GitHub
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,git,github,vercel" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/API-Football--Data.org-0A2342?style=flat-square" />
+  <img src="https://img.shields.io/badge/Responsive-Mobile%20First-007BFF?style=flat-square" />
+  <img src="https://img.shields.io/badge/SEO-Basic-E63946?style=flat-square" />
+  <img src="https://img.shields.io/badge/Deployment-Vercel-00B4D8?style=flat-square" />
+</p>
 
 ---
 
