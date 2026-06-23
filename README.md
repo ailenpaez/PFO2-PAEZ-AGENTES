@@ -577,6 +577,6 @@ La aplicación debe iniciar correctamente, consumir la API configurada mediante 
 ---
 ### Deploy de los proyectos
 
-- Claude: 
-- Cursor: 
+- Claude: https://pfo-2-paez-agente-claude.vercel.app/
+- Cursor: https://pfo-2-paez-agente-cursor.vercel.app/
 
