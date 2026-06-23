@@ -2,11 +2,11 @@
 
 ### Nombre del proyecto: CopaTracker ⚽ 2026
 ---
-**Link deploy unificado**: https://pfo-2-paez-agentes-menu.vercel.app/
-**Alumna**: Ailén Páez
-**Comisión**: Viernes - 2E
-**Materia**: Frontend
-**Año**:2026
+- **Link deploy unificado**: https://pfo-2-paez-agentes-menu.vercel.app/
+- **Alumna**: Ailén Páez
+- **Comisión**: Viernes - 2E
+- **Materia**: Frontend
+- **Año**:2026
 
 ---
 ### Descripción del proyecto
