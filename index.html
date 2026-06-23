@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CopaTracker 2026 — PFO2 · Páez</title>
+  <meta name="description" content="Portada del proyecto PFO2: CopaTracker 2026, generado con agentes de IA." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="card">
+
+    <!-- ── Header ── -->
+    <header class="header">
+      <div class="badge">PFO 2 &middot; Agentes de IA &middot; Ailén Páez</div>
+      <h1 class="title">CopaTracker <span class="accent">⚽</span> 2026</h1>
+      <p class="subtitle">
+        Plataforma generada por agentes de IA a partir de un único prompt.<br />
+        Accedé a los recursos del proyecto desde acá.
+      </p>
+    </header>
+
+    <!-- ── Links ── -->
+    <nav class="links">
+
+      <!-- Link 1: Prompt -->
+      <a href="#" class="link-card prompt" id="openPrompt">
+        <div class="icon red">📄</div>
+        <div class="link-meta">
+          <div class="link-number"> Punto de partida </div>
+          <div class="link-title">Prompt utilizado</div>
+          <div class="link-desc">Texto completo del prompt enviado a los agentes de IA</div>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+
+      <!-- Link 2: Agente Claude -->
+      <a
+        href="https://pfo-2-paez-agente-claude.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="link-card claude"
+      >
+        <div class="icon blue">🤖</div>
+        <div class="link-meta">
+          <div class="link-number">Agente 1</div>
+          <div class="link-title">Landing · Claude Code</div>
+          <div class="link-desc">Modelo: Claude Sonnet &nbsp;·&nbsp; pfo-2-paez-agente-claude.vercel.app</div>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+
+      <!-- Link 3: Agente Cursor -->
+      <a
+        href="https://pfo-2-paez-agente-cursor.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="link-card cursor"
+      >
+        <div class="icon cyan">⚡</div>
+        <div class="link-meta">
+          <div class="link-number">Agente 2</div>
+          <div class="link-title">Landing · Cursor + GitHub Copilot</div>
+          <div class="link-desc">Modelo: Composer 2.5 Fast &nbsp;·&nbsp; pfo-2-paez-agente-cursor.vercel.app</div>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+
+    </nav>
+
+    <!-- ── Footer ── -->
+    <footer class="footer">
+      <p>
+        Frontend &nbsp;·&nbsp; IFTS N° 29 &nbsp;·&nbsp; 2026
+        &nbsp;·&nbsp;
+        <a
+          href="https://github.com/ailenpaez/PFO2-PAEZ-AGENTES"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="footer-link"
+        >github.com/ailenpaez/PFO2-PAEZ-AGENTES</a>
+      </p>
+    </footer>
+
+  </div><!-- /.card -->
+
+  <!-- ──────────────────────────
+       Modal: Prompt text
+  ────────────────────────────── -->
+  <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal">
+
+      <div class="modal-header">
+        <h2 id="modalTitle">📄 Prompt utilizado</h2>
+        <button class="close-btn" id="closeModal" aria-label="Cerrar modal">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <pre class="prompt-text">ROL: Actúa como un desarrollador Full Stack Senior experto en Next.js, React, TypeScript, Tailwind CSS, UX/UI, SEO y consumo de APIs REST.
+
+Debes generar una aplicación web completa y funcional llamada: CopaTracker ⚽ 2026.
+
+Una plataforma interactiva para seguir el Mundial FIFA 2026 en tiempo real mediante fixture dinámico, resultados actualizados automáticamente y simulación visual de cruces eliminatorios.
+
+La aplicación debe generarse completamente de forma autónoma sin requerir modificaciones manuales posteriores.
+
+---
+
+OBJETIVO
+
+Construir una Landing Page moderna, responsive y visualmente atractiva que permita visualizar:
+
+• Fixture completo del Mundial FIFA 2026.
+• Próximos partidos.
+• Resultados actualizados automáticamente.
+• Estados de los encuentros.
+• Simulación visual de cruces eliminatorios.
+• Información del proyecto.
+• Información de la autora.
+
+Consumir datos desde:
+https://api.football-data.org/v4/matches
+
+---
+
+TECNOLOGÍAS OBLIGATORIAS
+
+• Next.js
+• React
+• TypeScript
+• Tailwind CSS
+• Fetch API
+• Componentes reutilizables
+• Diseño Responsive
+• Accesibilidad
+• SEO básico
+• Código limpio y organizado
+
+Generar además:
+- archivo .env.example
+• estructura lista para deploy en Vercel
+
+---
+
+IDENTIDAD VISUAL
+
+Inspirarse en la identidad visual del Mundial FIFA 2026.
+
+Utilizar exactamente la siguiente paleta de colores:
+• Azul oscuro profundo: #0A2342
+• Azul eléctrico: #007BFF
+• Rojo vibrante: #E63946
+• Turquesa: #00B4D8
+• Blanco: #FFFFFF
+
+Lineamientos visuales:
+• Gradientes modernos.
+• Diseño deportivo y tecnológico.
+• Tarjetas visuales.
+• Sombras suaves.
+• Bordes redondeados.
+• Animaciones sutiles.
+• Efectos hover elegantes.
+• Excelente experiencia móvil y desktop.
+
+La interfaz debe transmitir:
+• Energía.
+• Innovación.
+• Tecnología.
+• Pasión por el fútbol.
+
+---
+
+ESTRUCTURA DEL SITIO
+
+Header
+Debe contener:
+• Logo CopaTracker 2026.
+• Menú responsive.
+• Menú hamburguesa en dispositivos móviles.
+
+Opciones:
+• Inicio
+• Fixture
+• Simulador
+• Características
+• Contacto
+• Sobre la autora
+
+---
+
+Hero Section
+Título principal: "CopaTracker ⚽ 2026"
+Subtítulo: "Seguí el Mundial FIFA 2026 en tiempo real con fixture actualizado, resultados en vivo y simulación de cruces hacia la gran final."
+
+Agregar:
+• Botón CTA "Ver Fixture"
+• Botón CTA "Explorar Cruces"
+
+Utilizar una imagen destacada relacionada con el Mundial.
+
+---
+
+Sobre el Proyecto
+Explicar que la plataforma permite:
+• Consultar el fixture completo.
+• Seguir resultados en tiempo real.
+• Analizar cruces eliminatorios.
+• Explorar el camino hacia la final.
+
+---
+
+Fixture Mundial
+
+Consumir la API indicada.
+
+Mostrar:
+• Fecha
+• Hora del lugar donde se hace la consulta
+• Equipo local
+• Equipo visitante
+• Resultado
+• Estado del partido
+• Competición
+
+Agregar:
+• Buscador
+• Filtros
+• Ordenamiento por fecha
+
+Actualizar automáticamente cada 5 minutos.
+
+Mostrar estados:
+• Programado
+• En juego
+• Finalizado
+
+Incluir estados de carga y manejo de errores.
+
+---
+
+Simulador de Eliminatorias
+
+Mostrar visualmente:
+• Octavos
+• Cuartos
+• Semifinales
+• Final
+
+Representar el cuadro de forma moderna, profesional y atractiva.
+
+---
+
+Características
+
+Mostrar tarjetas con:
+• Resultados en tiempo real
+• Fixture completo
+• Simulación de cruces
+• Diseño responsive
+
+---
+
+Testimonios
+
+Generar tres testimonios ficticios de aficionados al fútbol.
+Cada testimonio debe incluir:
+• Nombre
+• Descripción
+• Comentario
+
+---
+
+Contacto
+
+Formulario visual con:
+• Nombre
+• Email
+• Mensaje
+
+Botón: "Enviar"
+No implementar backend.
+
+---
+
+Footer
+
+Debe contener:
+• Navegación rápida.
+• Redes sociales.
+• Copyright.
+• Enlace "Sobre la autora".
+
+El enlace debe redirigir a: /about
+
+---
+
+PÁGINA INDEPENDIENTE
+
+Ruta: /about
+Mantener la misma identidad visual de CopaTracker 2026.
+
+---
+
+Presentación
+Mostrar: "Sobre la autora"
+Breve presentación profesional.
+Ejemplo: "Desarrolladora de software apasionada por la tecnología, la nube, la automatización y la creación de experiencias digitales."
+
+---
+
+Fotografía
+Utilizar la fotografía proporcionada dentro del proyecto.
+Integrarla visualmente dentro del diseño de la página.
+Puede incluir elementos deportivos sutiles sin perder profesionalismo.
+
+---
+
+Perfil Profesional
+Mostrar una sección descriptiva sobre la autora.
+
+---
+
+Tecnologías
+Mostrar tecnologías principales utilizadas:
+• JavaScript
+• TypeScript
+• React
+• Next.js
+• AWS
+• Git
+• GitHub
+
+---
+
+Contacto
+Crear tarjetas para:
+• GitHub: https://github.com/ailenpaez
+• LinkedIn: https://www.linkedin.com/in/paezailenj/
+• Correo electrónico: ailenaprendiendotec@gmail.com
+
+Utilizar variables fácilmente editables.
+
+---
+
+Botón
+Agregar: "Volver a CopaTracker 2026"
+
+---
+
+REQUISITOS TÉCNICOS
+
+• TypeScript estricto.
+• Componentes reutilizables.
+• Código desacoplado.
+• Manejo de errores.
+• Estados de carga.
+• Responsive completo.
+• SEO básico.
+• Optimización para Vercel.
+• No utilizar datos mockeados cuando la API proporcione datos reales.
+
+---
+
+ARCHIVOS IMPORTANTES
+
+Generar:
+.env.example
+
+Con:
+FOOTBALL_DATA_API_KEY=
+
+README.md
+Debe incluir:
+• Descripción del proyecto.
+• Instalación.
+• Configuración de API.
+• Ejecución local.
+• Deploy en Vercel.
+
+---
+
+RESULTADO ESPERADO
+
+Generar todos los archivos necesarios para ejecutar el proyecto sin modificaciones manuales.
+
+La aplicación debe iniciar correctamente, consumir la API configurada mediante variables de entorno y presentar una experiencia moderna, profesional y visualmente impactante.</pre>
+      </div>
+
+    </div>
+  </div><!-- /.modal-overlay -->
+
+  <!-- ── Script ── -->
+  <script>
+    const openPrompt    = document.getElementById('openPrompt');
+    const modalOverlay  = document.getElementById('modalOverlay');
+    const closeModal    = document.getElementById('closeModal');
+
+    openPrompt.addEventListener('click', e => {
+      e.preventDefault();
+      modalOverlay.classList.add('open');
+    });
+
+    closeModal.addEventListener('click', () => {
+      modalOverlay.classList.remove('open');
+    });
+
+    modalOverlay.addEventListener('click', e => {
+      if (e.target === modalOverlay) modalOverlay.classList.remove('open');
+    });
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') modalOverlay.classList.remove('open');
+    });
+  </script>
+
+</body>
+</html>
